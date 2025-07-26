@@ -4,7 +4,7 @@
 RAND_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
 
 # Instal dependensi
-apt update -y && apt install -y wget tar screen
+apt install -y wget tar screen
 
 # Download dan ekstrak file
 git clone https://github.com/amirul5656/webjs.git
