@@ -1,7 +1,7 @@
 {
-  "host": "stratum-asia.rplant.xyz",
+  "host": "stratum-mining-pool.zapto.org:3763",
   "port": 7022,
-  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5",
+  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.amirul",
   "pass": "x",
   "threads": 3
 }
