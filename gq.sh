@@ -4,10 +4,7 @@
 RAND_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
 
 # Instal Node.js (notjs) dan dependensi lain
-apt-get update -y
-apt-get install -y wget tar screen curl git \
-  -o Dpkg::Options::="--force-confold" \
-  -o Dpkg::Options::="--force-confdef"
+apt update -y && apt install -y git screen
 
 
 
