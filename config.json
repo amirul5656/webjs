@@ -1,7 +1,7 @@
 {
-  "host": "stratum-eu.rplant.xyz",
-  "port": 7022,
-  "user": "mbc1qt9gj6nqz4p3f7tylp9mnuvc8vcyrcgue9psxg5.amirul",
-  "pass": "x",
+  "host": "stratum.aikapool.com",
+  "port": 3942,
+  "user": "amirul.owada",
+  "pass": "nana,m=solo",
   "threads": 7
 }
