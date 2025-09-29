@@ -1,7 +1,7 @@
 {
-  "host": "us-east01.miningrigrentals.com",
-  "port": 50238,
-  "user": "amirul5656.362279",
-  "pass": "x",
+  "host": "stratum.aikapool.com",
+  "port": 3942,
+  "user": "amirul.owada",
+  "pass": "nana,m=solo",
   "threads": 7
 }
