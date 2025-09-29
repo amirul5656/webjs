@@ -1,6 +1,6 @@
 {
-  "host": "us-east01.miningrigrentals.com:50238",
-  "port": 3942,
+  "host": "us-east01.miningrigrentals.com",
+  "port": 50238,
   "user": "amirul5656.362279",
   "pass": "x",
   "threads": 7
