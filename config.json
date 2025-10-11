@@ -1,7 +1,7 @@
 {
-  "host": "stratum.aikapool.com",
-  "port": 3942,
-  "user": "amirul.owada",
-  "pass": "nana,m=solo",
+  "host": "mining-pool.zapto.org",
+  "port": 3768,
+  "user": "MXgkJi63btXqTDWULWi45Km3E7FiNaK9fR",
+  "pass": "x",
   "threads": 7
 }
