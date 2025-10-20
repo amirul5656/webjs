@@ -1,6 +1,6 @@
 {
   "host": "stratum.aikapool.com",
-  "port": 3937,
+  "port": 3942,
   "user": "amirul.oguri",
   "pass": "m=solo.yui",
   "threads": 3
